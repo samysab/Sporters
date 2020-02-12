@@ -1,0 +1,150 @@
+
+/* Feuille de style générale */
+
+@font-face {
+  font-family: roboto;
+  src: url(../ressources/fonts/Roboto-Bold.ttf);
+}
+
+body{
+  background-image: url('../ressources/images/sporters_bg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+}
+
+.emptySection, .emptyIndexSection{
+  min-height: 500px;
+  padding: 20px;
+  color: white;
+}
+
+.emptyIndexSection{
+  text-align: center;
+}
+
+.filledSection{
+  padding-top: 25px;
+  min-height: 300px;
+}
+
+.filledContainer{
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 40px;
+  width: 75%;
+}
+
+.transparentContainer{
+  padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  background-color: rgba(0,0,0,0.6);
+  max-width: 500px;
+  display: inline-block;
+  color: white;
+}
+
+nav a, .btn{
+  text-transform: uppercase;
+}
+
+.link-btn{
+  color: white;
+}
+
+
+h4 {
+  margin: 5px 0 0;
+}
+
+/* Pied de page */
+
+footer{
+  padding: 20px;
+  min-height: 150px;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  color: red;
+}
+
+footer h6{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer .modal{
+  color: black;
+}
+
+/* Fin */
+
+/* Feuille de style custom */
+#logotext{
+  font-family: roboto;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.sublogotext{
+  font-family: roboto;
+  text-align: center;
+}
+
+.title{
+  font-family: roboto;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.jumboDark{
+  color: white;
+}
+
+.card{
+  margin-top: 20px;
+}
+
+/* Search Menu */
+
+#searchParent {
+  position: relative;
+}
+
+#searchResBox {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 38px;
+  background-color: white;
+  width: 200px;
+  border-radius: 3px;
+}
+
+.list-group-item {
+  padding: .375rem .75rem;
+  background-color: white;
+  color: black;
+  border-bottom: 2px solid white;
+}
+
+.searchResRows {
+  font-size: 14px;
+  margin-top: 5px;
+}
+

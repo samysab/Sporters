@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g id="balls_x5F_1_x5F_basketball">
+	<g>
+		<g>
+			<defs>
+				<circle id="SVGID_1_" cx="256" cy="256" r="200"/>
+			</defs>
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:#FF6D00;"/>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g style="clip-path:url(#SVGID_2_);">
+				<g>
+					<circle style="fill:none;stroke:#424242;stroke-width:8;stroke-miterlimit:10;" cx="427.409" cy="256" r="132.087"/>
+					<circle style="fill:none;stroke:#424242;stroke-width:8;stroke-miterlimit:10;" cx="85.409" cy="256" r="132.087"/>
+				</g>
+				<line style="fill:none;stroke:#424242;stroke-width:8;stroke-miterlimit:10;" x1="256" y1="61" x2="256" y2="451"/>
+				<line style="fill:none;stroke:#424242;stroke-width:8;stroke-miterlimit:10;" x1="64" y1="256" x2="449" y2="256"/>
+			</g>
+		</g>
+		<g id="XMLID_26_">
+			<path style="fill:#424242;" d="M256,70c49.683,0,96.391,19.347,131.522,54.478S442,206.317,442,256
+				s-19.347,96.391-54.478,131.522S305.683,442,256,442s-96.391-19.347-131.522-54.478S70,305.683,70,256
+				s19.347-96.391,54.478-131.522S206.317,70,256,70 M256,56C145.543,56,56,145.543,56,256s89.543,200,200,200s200-89.543,200-200
+				S366.457,56,256,56L256,56z"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

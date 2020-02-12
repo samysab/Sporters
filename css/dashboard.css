@@ -1,0 +1,127 @@
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link:hover{
+  color: darkred;
+}
+
+.sidebar .nav-link:active{
+  color: darkred;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/* Dashboard Games */
+
+.games_container{
+  margin-left: 20px;
+  height: 300px;
+  width: 75px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: auto;
+  text-align: center;
+  font-size: 36px;
+}
+
+.games_container a{
+  color: black;
+}
+
+.games_container a:hover{
+  color: darkred;
+}
+
+
+/* Search Menu */
+
+#searchParent {
+  position: relative;
+}
+
+#searchResBox {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 38px;
+  background-color: white;
+  width: 200px;
+  border-radius: 3px;
+}
+
+.list-group-item {
+  padding: .375rem .75rem;
+  background-color: white;
+  color: black;
+  border-bottom: 2px solid white;
+}
+
+.searchResRows {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+
+
+
+/********** Shop **********/
+.list-group {
+  margin-bottom: 30px !important;
+}
+
+
+/**********  /   **********/
+
+
+
+
+
+/********** Map **********/
+#map {
+  width: 500;
+  height: 300px;
+  /*max-width: 500px;*/
+}
+
+
+/**********  /   **********/
+
+
+
